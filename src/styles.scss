@@ -14,8 +14,8 @@ body { margin: 0; font-family: 'Roboto', sans-serif; }
 }
 
 .section{
-  padding-top:100px;
-  padding-bottom:50px;
+  padding-top:75px;
+  padding-bottom:25px;
   padding-left: 50px;
   padding-right:50px;
 }
@@ -35,8 +35,8 @@ body { margin: 0; font-family: 'Roboto', sans-serif; }
   font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:25px;
+  padding-bottom:25px;
   padding-left:50px;
   padding-right:50px;
 }
@@ -75,11 +75,12 @@ li {
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
   .section{
-    padding-top:100px;
+    padding-top:75px;
     padding-bottom:0px;
     padding-left: 10px;
     padding-right:10px;
   }
+
   .content{
     padding-top:75px;
     padding-bottom:50px;
@@ -91,7 +92,7 @@ li {
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
   .section{
-    padding-top:100px;
+    padding-top:75px;
     padding-bottom:0px;
     padding-left: 10px;
     padding-right:10px;
@@ -107,7 +108,7 @@ li {
 /* Medium devices (desktops, 992px and up)  col-lg */
 @media (min-width: 992px) and (max-width: 1199px) {
   .section{
-    padding-top:100px;
+    padding-top:75px;
     padding-bottom:0px;
     padding-left: 10px;
     padding-right:10px;

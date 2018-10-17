@@ -16,9 +16,7 @@
   border: 10px solid #f5f9ef;
   text-align:center;
   padding:50px;
-  margin-bottom:25px;
   margin:0px auto;
-  margin-bottom: 25px;
 }
 
 .outer-circle:hover, .img-responsive:hover, .btn-custom:hover{
@@ -107,13 +105,18 @@ li{
   .outer-circle{
     width: 310px;
     height: 310px;
+    margin:0px auto;
+    margin-bottom: 25px;
   }
+
 }
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
   .outer-circle{
     width: 310px;
     height: 310px;
+    margin:0px auto;
+    margin-bottom: 25px;
   }
 }
 
@@ -122,9 +125,17 @@ li{
   .outer-circle{
     width: 310px;
     height: 310px;
+    margin:0px auto;
+    margin-bottom: 25px;
   }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1920px) {
+  .outer-circle{
+    width: 310px;
+    height: 310px;
+    margin:0px auto;
+    margin-bottom: 25px;
+  }
 }
