@@ -1,0 +1,121 @@
+
+.fa{
+  font-size: 40px;
+  color:#333;
+}
+.outer-circle-main{
+   margin-top:125px;
+}
+.outer-circle{
+  width: 325px;
+  height: 325px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #eee;
+  border: 10px solid #f5f9ef;
+  text-align:center;
+  padding:50px;
+  margin:0px auto;
+  margin-bottom:50px;
+}
+
+.outer-circle:hover, .img-responsive:hover, .btn-custom:hover{
+  opacity: 0.8;
+}
+.strength-info
+{
+  margin-top:25px;
+}
+ul{
+  margin:0px;
+  padding:0px;
+}
+
+li{
+  list-style-type : none;
+}
+
+.profile-title{
+  color:black;
+  padding:20px;
+}
+
+.culture-info
+{
+  font-family: Roboto-Thin;
+  font-size: 35px;
+  margin-top:75px;
+  text-align: left;
+}
+
+.background{
+  background-color: #f5f9ef;
+  background-color: #efefef;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.background:after{
+  content: '';
+  background-color: #fff;
+  display: block;
+  width: 120%;
+  height: 109px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  bottom: -47px;
+  transform: rotate(-4deg);
+}
+.background1{
+  background-color: #f5f9ef;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.background1:after{
+  content: '';
+  background-color: #fff;
+  display: block;
+  width: 120%;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  bottom: -47px;
+  transform: rotate(-4deg);
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  border-bottom: 500px solid green;
+}
+
+//* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .outer-circle{
+    width: 310px;
+    height: 310px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {
+}

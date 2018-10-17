@@ -1,0 +1,111 @@
+.card-div{
+  margin: 0px auto;
+}
+.card1{
+  height:460px;
+  text-align: center;
+  border : 1px solid #edf3e1;
+  overflow: hidden;
+
+  .header{
+    background-color: #f5f9ef;
+    background-color: #eee;
+    color: #666;
+    padding: 25px;
+    // border-top:1px solid #edf3e1;
+    // border-left:1px solid #edf3e1;
+    border-bottom:1px solid #edf3e1;
+  }
+  .card-content{
+    // min-height:275px;
+    font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 25px;
+  }
+
+  .name{
+    font-size: 18px;
+    font-weight:bolder;
+  }
+
+  .designation{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .education{
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .expertise{
+    padding-left:25px;
+    padding-right:25px;
+  }
+}
+.card2{
+  margin-top:20px;
+  text-align: center;
+  border: 1px solid #edf3e1;
+  min-height:200px;
+
+  .header{
+    background-color: #f5f9ef;
+    color: #666;
+    padding: 25px;
+    line-height: 2.5em;
+    border-right: 1px solid #edf3e1;
+  }
+  .card-content{
+    font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 25px;
+  }
+
+  .name{
+    font-size: 18px;
+    font-weight:bolder;
+  }
+
+  .designation{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+
+
+  }
+  .education{
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .expertise{
+    padding-left:25px;
+    padding-right:25px;
+  }
+}
+//* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+  .card-div{
+    margin-bottom: 25px;
+  }
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .card-div{
+    margin-bottom: 25px;
+  }
+  .card1{
+    height:400px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card1{
+    height:540px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}

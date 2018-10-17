@@ -1,0 +1,83 @@
+.support
+{
+  height:150px;
+  background-color: #efefef;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+}
+.contact-box-main{
+  padding:25px;
+}
+.contact-box-div
+{
+  margin-top:-10%;
+
+}
+
+.contact-box
+{
+  background-color: #666;
+  color: #eee;
+  height:200px;
+  width: 100%;
+  margin:0px auto;
+  text-align: center;
+  border-right:1px solid white;
+  border-radius: 5px;
+}
+.form{
+  margin-top:50px;
+}
+.fa{
+  padding:20px;
+  font-size: 30px;
+  color:#eee;
+}
+
+.div-send-msg
+{
+  text-align: center;
+  margin-top:50px;
+}
+.btn-custom{
+  background-color: #eee;
+  color:black;
+  border-radius:10px;
+  border:none;
+  width: 300px;
+  height: 51px;
+  cursor: pointer;
+}
+
+.drop{
+  padding:25px;
+}
+
+
+//* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+  .contact-box-div
+  {
+    margin-top:0px;
+    margin-bottom:25px;
+  }
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .contact-box-div
+  {
+    // margin-top:0px;
+    margin-bottom:25px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+}
