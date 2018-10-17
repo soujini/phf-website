@@ -15,7 +15,7 @@ body { margin: 0; font-family: 'Roboto', sans-serif; }
 
 .section{
   padding-top:100px;
-  padding-bottom:25px;
+  padding-bottom:50px;
   padding-left: 50px;
   padding-right:50px;
 }
@@ -35,8 +35,8 @@ body { margin: 0; font-family: 'Roboto', sans-serif; }
   font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
-  padding-top:0px;
-  padding-bottom:25px;
+  padding-top:50px;
+  padding-bottom:50px;
   padding-left:50px;
   padding-right:50px;
 }
@@ -113,12 +113,7 @@ li {
     padding-left: 10px;
     padding-right:10px;
   }
-  .content{
-    padding-top:0px;
-    padding-bottom:50px;
-    padding-left:25px;
-    padding-right:25px;
-  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
