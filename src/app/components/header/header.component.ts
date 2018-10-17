@@ -66,6 +66,6 @@ export class HeaderComponent implements OnInit {
       setTimeout(() => {
         this.sharedService.isClicked.next(false);
       }, 1000);
-    }, 500);
+    }, 1000);
   }
 }
