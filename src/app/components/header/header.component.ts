@@ -42,7 +42,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngAfterViewInit(){
-
+this.sharedService.isClicked.next(false);
     this.sharedService.refreshList.subscribe(
       res=>{
         this.activeMenu = res;
@@ -56,7 +56,7 @@ export class HeaderComponent implements OnInit {
 
   scroll(el,name) {
     //Disabled buttons
-    $('.navbar-toggler').click();
+     $('.navbar-toggler').click();
 
     this.sharedService.isClicked.next(true);
     setTimeout(() => {
@@ -66,6 +66,6 @@ export class HeaderComponent implements OnInit {
       setTimeout(() => {
         this.sharedService.isClicked.next(false);
       }, 1000);
-    }, 1000);
+    }, 0);
   }
 }
