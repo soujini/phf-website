@@ -30,26 +30,16 @@ li a{
   .links{
     padding-right:25px;
   }
-  .navbar-collapse {
-    height: auto !important;
-    padding-left: 0 !important;
-}
+
 }
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
-  .navbar-collapse {
-      height: auto !important;
-      padding-left: 0 !important;
-  }
 
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .navbar-collapse {
-      height: auto !important;
-      padding-left: 0 !important;
-  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
