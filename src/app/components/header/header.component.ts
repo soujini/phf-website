@@ -11,14 +11,6 @@ export class HeaderComponent implements OnInit {
   activeMenu:any='about';
   selectedMenu:boolean=false;
 
-  //   @ViewChild('navbarId')
-  //   private navbaridRef: NavbarComponent;
-  // onClick(event): void {
-  // if (this.navbaridRef.shown) {
-  // this.navbaridRef.toggle(event);
-  // }
-  // }
-
   @ViewChild('about')
   private elAbout : ElementRef;
   @ViewChild('features')
@@ -70,7 +62,7 @@ export class HeaderComponent implements OnInit {
     setTimeout(() => {
       el.scrollIntoView({ behavior: 'smooth', block: 'start'  });
       this.activeMenu = name;
-      
+
       setTimeout(() => {
         this.sharedService.isClicked.next(false);
       }, 1000);
