@@ -24,11 +24,11 @@ export class TrackScrollDirective {
       res=>{
         if(res == true) //Clicked=>Do not trigger scroll
         {
-          console.log("track clicked");
+          //console.log("track clicked");
           this.x=true;
         }
         else{
-            console.log("track scroll");
+            //console.log("track scroll");
             this.x=false;
         }
       },
@@ -41,10 +41,10 @@ x:boolean=true;
   @HostListener('window:scroll', ['$event'])
     checkScroll() {
       if(this.x == true){//Clicked
-        console.log("clicked");
+        //console.log("clicked");
       }
       else{
-        console.log("highlight");
+      //  console.log("highlight");
         this.highlightBox();
       }
     }
