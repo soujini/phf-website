@@ -46,8 +46,16 @@ li a{
 
 /* Medium devices (desktops, 992px and up)  col-lg */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .navbar-collapse {
+      height: auto !important;
+      padding-left: 0 !important;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1920px) {}
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .navbar-collapse {
+      height: auto !important;
+      padding-left: 0 !important;
+  }
+}
