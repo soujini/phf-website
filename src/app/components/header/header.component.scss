@@ -22,3 +22,25 @@ li a{
 .box{
   border: solid 2px blue;
 }
+//* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+  .logo{
+     padding-left:25px;
+  }
+  .links{
+    padding-right:25px;
+  }
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}
