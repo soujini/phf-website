@@ -28,7 +28,7 @@ export class TrackScrollDirective {
           this.x=true;
         }
         else{
-            //console.log("track scroll");
+          //  console.log("track scroll");
             this.x=false;
         }
       },
@@ -37,14 +37,14 @@ export class TrackScrollDirective {
       });
   }
 
-x:boolean=true;
+x:boolean=false;
   @HostListener('window:scroll', ['$event'])
     checkScroll() {
       if(this.x == true){//Clicked
-        console.log("clicked");
+        //console.log("clicked");
       }
       else{
-        console.log("highlight");
+      //  console.log("highlight");
         this.highlightBox();
       }
     }
