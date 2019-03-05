@@ -39,6 +39,9 @@ export class HeaderComponent implements OnInit {
     else if(currentURL == "contact"){
       this.scroll(this.elContact.nativeElement,'contact');
     }
+    $(document).ready(function(){
+      $(".navbar-toggler-icon").attr("aria-label","Toggle Menu");
+    });
   }
 
   ngAfterViewInit(){
@@ -56,8 +59,8 @@ export class HeaderComponent implements OnInit {
 
   scroll(el,name) {
     //Disabled buttons
-     if($('.navbar-toggler').is(':visible')) {
-     $('.navbar-toggler').click();
+    if($('.navbar-toggler').is(':visible')) {
+      $('.navbar-toggler').click();
     }
 
     this.sharedService.isClicked.next(true);
