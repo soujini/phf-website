@@ -9,8 +9,8 @@ function clean(done) {
 }
 
 function compress(done) {
-  return gulp.src(['./dist/phf-website/*.js'])
+  return gulp.src(['./dist/*.js'])
   .pipe(gzip())
-  .pipe(gulp.dest('./dist/phf-website/', {overwrite: true}));
+  .pipe(gulp.dest('./dist', {overwrite: true}));
   done();
 }
