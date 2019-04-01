@@ -19,14 +19,15 @@
 .card-div-light{
   margin: 0px auto;
   background-color: #eeeeee;
-  border-right:5px solid white;
+  border-right:2px solid white;
+  border-left:2px solid white;
   padding:0px;
   text-align: center;
 }
 .card-div-dark{
   margin: 0px auto;
   background-color: #BEBEBe;
-  border-right:5px solid white;
+  // border-right:5px solid white;
   padding:0px;
   text-align: center;
 }
@@ -49,7 +50,7 @@
 
   .name{
     font-family: 'Freestyle Script',sans-serif;
-    font-size: 30pt;
+    font-size: 24pt;
   }
   .designation{
     font-size: 12pt;

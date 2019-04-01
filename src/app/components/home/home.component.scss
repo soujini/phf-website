@@ -10,13 +10,15 @@
 .h1-responsive{
   font-family: 'Didact Gothic',sans-serif;
   font-weight: bold;
+  font-size: 22pt;
 }
 .h1-responsive-accent{
   font-family: 'Freestyle Script',sans-serif;
-   font-size:40pt;
+   font-size:24pt;
 }
 .h2-responsive{
   font-family: 'Didact Gothic',sans-serif;
+  font-size: 18pt;
 }
 
 .h_name{
@@ -29,17 +31,19 @@
 }
 .h_accent{
   padding:0.5rem;
-  margin:1.5rem;
   font-family: cursive;
-  background-color: #f2f2f2;
+
 }
 .accent-text{
-  height: 110px;
+  height: 50px;
   text-align:center;
   display:table;
   width:100%;
+  margin-top:45px;
+  margin-left:-6px;
+  padding:0px;
 }
-.accent-text h1 {display:table-cell; vertical-align:middle}
+.accent-text h1 {display:table-cell; vertical-align:middle;background-color: #f2f2f2;}
 .h_capacity{
   padding:0.5rem;
   margin:1.5rem;

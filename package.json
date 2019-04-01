@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --c=production"
+    "postinstall": "ng build --prod --source-map=false --vendor-chunk=true  --extract-css=true --build-optimizer"
   },
   "private": true,
   "dependencies": {
