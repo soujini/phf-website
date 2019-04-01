@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 .section{
-   margin-top:97px;
+  padding:50px 25px 25px 25px;
+}
+.content{
+  padding-left: 7%;
+  padding-right:7%;
+  padding-top:2%;
+}
+
+.title{
+  font-size: 14pt;
+  font-weight: bold;
+  color:#eca60f;
+  font-family: 'Didact Gothic',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.a_founder{
+}
+.a_founder .name{
+  font-family: 'Freestyle Script',sans-serif;
+  font-size: 35pt;
+}
+.a_founder .year{
+}
+.a_segment{
+  margin-top:35px;
+}
+.a_footer{
+  margin-top:50px;
+  text-align: center;
+  color:gray;
+  font-size: 9pt;
+  font-family: arial;
 }

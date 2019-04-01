@@ -1,52 +1,62 @@
-.support
-{
-  height:150px;
-  background-color: #efefef;
-  text-align: center;
-  font-size: 24px;
-  border-radius: 8px;
+.section{
+  padding:50px 25px 25px 25px;
+  background-color: #f2f2f2;
 }
-.contact-box-main{
-  padding:25px;
+.content{
+  padding-left: 7%;
+  padding-right:7%;
+  padding-top:2%;
 }
-.contact-box-div
-{
-  margin-top:-10%;
-
+.container-left{
+  background-color: white;
+  padding-top:2%;
+}
+.container-right{
+   background-color: #e8e8e8;
+   padding-top:2%;
+}
+.title{
+    font-size: 14pt;
+    font-weight: bold;
+    color:black;
+    font-family: 'Didact Gothic',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .contact-box
 {
-  background-color: #666;
-  color: #eee;
-  height:200px;
+  background-color: #e8e8e8;
+  color: black;
+  height:260px;
   width: 100%;
   margin:0px auto;
   text-align: center;
-  border-right:1px solid white;
+  border:5px solid #eeeeee;
   border-radius: 5px;
 }
-.form{
-  margin-top:50px;
+
+.form-row{
+   margin-bottom:15px;
 }
 .fa{
-  padding:20px;
-  font-size: 30px;
-  color:#eee;
+   padding-top:15px;
 }
 
 .div-send-msg
 {
   text-align: center;
-  margin-top:50px;
+  padding: 25px;
 }
 .btn-custom{
-  background-color: #eee;
+  background-color: #d5d5d5;
   color:black;
   border-radius:10px;
   border:none;
   height: 50px;
   cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .drop{
@@ -56,25 +66,11 @@
 
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
-  .contact-box-main{
-    padding:0px;
-  }
-  .contact-box-div
-  {
-    margin-top:0px;
-    margin-bottom:25px;
-  }
 }
+
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
-  .contact-box-main{
-    padding:5px;
-  }
-  .contact-box-div
-  {
-    // margin-top:0px;
-    margin-bottom:25px;
-  }
+
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */

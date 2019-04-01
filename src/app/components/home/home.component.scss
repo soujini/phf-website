@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+.section{
+    padding:100px 25px 25px 25px;
+}
+
+.separator{
+  color:#eeeeee;
+}
+
+.h1-responsive{
+  font-family: 'Didact Gothic',sans-serif;
+  font-weight: bold;
+}
+.h1-responsive-accent{
+  font-family: 'Freestyle Script',sans-serif;
+   font-size:40pt;
+}
+.h2-responsive{
+  font-family: 'Didact Gothic',sans-serif;
+}
+
+.h_name{
+  padding:0.5rem;
+  margin:1.5rem;
+}
+.h_logo{
+  padding:0.5rem;
+  margin:1.5rem;
+}
+.h_accent{
+  padding:0.5rem;
+  margin:1.5rem;
+  font-family: cursive;
+  background-color: #f2f2f2;
+}
+.accent-text{
+  height: 110px;
+  text-align:center;
+  display:table;
+  width:100%;
+}
+.accent-text h1 {display:table-cell; vertical-align:middle}
+.h_capacity{
+  padding:0.5rem;
+  margin:1.5rem;
+  font-family: 'Didact Gothic',sans-serif;
+  font-size:12pt;
+}
+
+/* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}

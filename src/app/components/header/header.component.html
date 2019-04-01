@@ -1,20 +1,22 @@
-<section class="module-small navbar-light">
-<mdb-navbar SideClass="navbar fixed-top navbar-custom navbar-expand-lg scrolling-navbar ie-nav" [containerInside]="false">
-  <logo class="logo">
-    <img src="./assets/images/phf-logo.png" alt="logo"/>
-  </logo>
+<section class="row navbar-light">
+<mdb-navbar SideClass="navbar fixed-top navbar-custom navbar-expand-lg scrolling-navbar ie-nav row" [containerInside]="false">
+
   <links class="links">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto auto">
     </ul>
     <ul class="navbar-nav navbar-flex-icons">
+      <li id="liHome" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='home'}" routerLink="/home"
+       (click)="scroll(home,'home')" >
+        <a class="nav-link">HOME<span class="sr-only">(current)</span></a>
+      </li>
       <li id="liAbout" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='about'}" routerLink="/about"
        (click)="scroll(about,'about')" >
-        <a class="nav-link">ABOUT<span class="sr-only">(current)</span></a>
+        <a class="nav-link">ABOUT<span class="sr-only"></span></a>
       </li>
-      <li id="liFeatures" class="nav-item xwaves-light" xmdbRippleRadius [ngClass]="{'green-text': activeMenu=='features'}" routerLink="/features"
+      <!-- <li id="liFeatures" class="nav-item xwaves-light" xmdbRippleRadius [ngClass]="{'green-text': activeMenu=='features'}" routerLink="/features"
       (click)="scroll(features,'features')">
         <a class="nav-link">FEATURES</a>
-      </li>
+      </li> -->
       <li id="liManagement" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='management'}" routerLink="/management"
       (click)="scroll(management,'management')">
         <a class="nav-link">MANAGEMENT</a>
@@ -29,15 +31,20 @@
 </section>
 
 <div class="text-center">
-  <div #about id="about" [appTrackScroll]="'about'">
-    <!-- (onValueChanged)=onValueChanged($event) -->
+  <div #home id="home" [appTrackScroll]="'home'">
+    <app-home></app-home>
+    <app-vision></app-vision>
+  </div>
+   <div #about id="about" [appTrackScroll]="'about'">
     <app-about></app-about>
   </div>
-  <div #features id="features" [appTrackScroll]="'features'">
+  <!-- <div #features id="features" [appTrackScroll]="'features'">
     <app-features></app-features>
-  </div>
+  </div> -->
+
   <div #management id="management" [appTrackScroll]="'management'">
     <app-management></app-management>
+    <app-features></app-features>
   </div>
   <div #contact id="contact" [appTrackScroll]="'contact'">
     <app-contact></app-contact>

@@ -1,47 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Roboto', sans-serif; }
+body { margin: 0;font-family: 'Didact Gothic', sans-serif; font-size: 12pt; }
 .navbar{
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border-bottom: 0.25px solid #99ba56;
   z-index: 2000;
-  background-color: white !important;
+}
+.navbar-custom{
+  background-color: #f2f2f2;
 }
 
-.section{
-  padding-top:100px;
-  padding-bottom:50px;
-  padding-left: 50px;
-  padding-right:50px;
-}
-
-.title{
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: .15em;
-  font-size: 40px;
-  color: #666;
-  color:#eca60f;
-  font-weight: lighter;
-}
-
-.content{
-  text-align: left;
-  font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
-  color: #666;
-  -webkit-font-smoothing: antialiased;
-  padding-top:50px;
-  padding-bottom:50px;
-  padding-left:50px;
-  padding-right:50px;
-}
 .bold{
-  color: #333;
   font-weight: bold;
 }
 .bold1{
@@ -88,28 +62,25 @@ li {
     padding-right:25px;
   }
 
+
 }
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
   .section{
-    // padding-top:100px;
-    // padding-bottom:0px;
     padding-left: 10px;
     padding-right:10px;
   }
   .content{
-    // padding-top:0px;
     padding-bottom:50px;
     padding-left:25px;
     padding-right:25px;
   }
+
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */
 @media (min-width: 992px) and (max-width: 1199px) {
   .section{
-    // padding-top:100px;
-    // padding-bottom:0px;
     padding-left: 10px;
     padding-right:10px;
   }

@@ -11,10 +11,13 @@ import { FeaturesComponent } from './components/features/features.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
+import { HomeComponent } from './components/home/home.component';
+import { VisionComponent } from './components/vision/vision.component';
 import { ManagementComponent } from './components/management/management.component';
 import { TrackScrollDirective } from './track-scroll.directive';
 
 import {SharedService} from './services/shared.service';
+
 
 @NgModule({
   declarations: [
@@ -26,6 +29,8 @@ import {SharedService} from './services/shared.service';
     AboutComponent,
     ManagementComponent,
     TrackScrollDirective,
+    HomeComponent,
+    VisionComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,13 @@
-
-
+section{
+  background-color: red;
+}
+.nav-link{
+  font-size:9pt !important;
+  font-weight: bold;
+}
 .navbar-nav li.green-text a {
-  color: #99ba56 !important;
-  // background-color: #FFFFFF !important;
+  color:black !important;
+
 }
 .logo{
    padding-left:75px;
@@ -11,7 +16,7 @@
   padding-right:75px;
 }
 li a{
-  font-size: 12px;
+  font-size:9pt;
   letter-spacing: 3px;
 }
 
@@ -19,9 +24,6 @@ li a{
   height: 3200px;
 }
 
-.box{
-  border: solid 2px blue;
-}
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
   .logo{
