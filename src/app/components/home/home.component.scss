@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 .section{
-    padding:100px 25px 25px 25px;
+   padding:75px 25px 25px 25px;
 }
 
 .separator{
-  color:#eeeeee;
+  color:#ccc;
 }
+
 .img{
-  width: 100%;
+  width: auto;
+  height:100px;
+  margin-top:-15px;
 }
 .h1-responsive{
   font-family: 'Didact Gothic',sans-serif;
@@ -16,8 +19,13 @@
 }
 .h1-responsive-accent{
   font-family: 'Freestyle Script',sans-serif;
-   font-size:24pt;
+  font-size:24pt;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  margin-left: -23px;
+    height:41px;
 }
+
 .h2-responsive{
   font-family: 'Didact Gothic',sans-serif;
   font-size: 18pt;
@@ -28,90 +36,64 @@
   margin:1.5rem;
 }
 .h_logo{
-  padding:0.5rem;
-  margin:1.5rem;
+  // padding:0.5rem;
+  // margin:1.5rem;
 }
-.h_accent{
-  padding:0.5rem;
-  font-family: cursive;
 
-}
-.accent-text{
-  height: 50px;
-  text-align:center;
-  display:table;
-  width:100%;
-  margin-top:40px;
-  padding:0px;
-}
-.accent-text h1 {display:table-cell; vertical-align:middle;background-color: #f2f2f2;}
- // .accent-text h1{
- //   background-color: #f2f2f2;
- // }
 .accent-img{
   padding:0px;
 }
 .h_capacity{
-  padding:0.5rem;
-  margin:1.5rem;
+  // padding:0.5rem;
+  // margin:1.5rem;
+  margin-left:0px;
+  margin-right:0px;
   font-family: 'Didact Gothic',sans-serif;
   font-size:12pt;
+
+//   background-image: url("../../../../src/assets/images/slide3.jpg");
+// background-size: cover;
+// background-repeat: no-repeat;
+// height:500px;
 }
 
 /* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
-  .img{
-  height:auto;
-  width: 125px !important;
+  .h1-responsive-accent{
+    margin-left: 0px;
+    height:110px;
   }
-  .accent-text{
-    margin-left:0px;
-  }
+
   .accent-img{
     margin-right:0px;
   }
 }
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
-  .img{
-  height:auto;
-  width: 125px !important;
-  }
-  .accent-text{
-    margin-left:0px;
-  }
-  .accent-img{
-    margin-right:0px;
+  // .img{
+  // height:auto;
+  // width: 125px !important;
+  // }
+  .h1-responsive-accent{
+    margin-left: 0px;
+    height:40px;
   }
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .img{
-  height:auto;
-  width: 125px !important;
-  }
-  .accent-text{
-    margin-left:0px;
-  }
-  .accent-img{
-    margin-right:0px;
-  }
+  // .img{
+  // height:auto;
+  // width: 125px !important;
+  // }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1920px) {
-  .img{
-  height:auto;
-  width: 150px !important;
-  }
-  .accent-text{
-    height: 60px;
-  }
-  .accent-text{
-    // margin-left:-12px;
-  }
-  .accent-img{
-    // margin-right:-12px;
-  }
+  // .img{
+  // height:auto;
+  // width: 150px !important;
+  // }
+
 }

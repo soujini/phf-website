@@ -1,16 +1,9 @@
 .footer {
     background: white;
     padding:20px 0px 20px 0px;
-    // padding: 20px;
   }
   .copyright {
     font-size: 12px;
-}
-.container-left{
-  text-align: left;
-}
-.container-right{
-  text-align: right;
 }
 
 .m-b-0 {
@@ -22,16 +15,10 @@
 
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
-.container-left, .container-right{
-  text-align: center;
-}
 
 }
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
-  // .container-left, .container-right{
-  //   text-align: center;
-  // }
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */

@@ -1,14 +1,16 @@
 <section class="row navbar-light">
 <mdb-navbar SideClass="navbar fixed-top navbar-custom navbar-expand-lg scrolling-navbar ie-nav row" [containerInside]="false">
-
+  <logo>
+    <img class="logo" alt="logo" src="./assets/images/logo_phf.png" height="50px;">
+  </logo>
   <links class="links">
     <ul class="navbar-nav mr-auto auto">
     </ul>
     <ul class="navbar-nav navbar-flex-icons">
-      <li id="liHome" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='home'}" routerLink="/home"
+      <!-- <li id="liHome" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='home'}" routerLink="/home"
        (click)="scroll(home,'home')" >
         <a class="nav-link">HOME<span class="sr-only">(current)</span></a>
-      </li>
+      </li> -->
       <li id="liAbout" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='about'}" routerLink="/about"
        (click)="scroll(about,'about')" >
         <a class="nav-link">ABOUT<span class="sr-only"></span></a>
@@ -31,22 +33,16 @@
 </section>
 
 <div class="text-center">
-  <div #home id="home" [appTrackScroll]="'home'">
-    <app-home></app-home>
+   <div #about id="about" class="sectionDiv" [appTrackScroll]="'about'">
+     <app-home></app-home>
     <app-vision></app-vision>
+     <app-about></app-about>
   </div>
-   <div #about id="about" [appTrackScroll]="'about'">
-    <app-about></app-about>
-  </div>
-  <!-- <div #features id="features" [appTrackScroll]="'features'">
-    <app-features></app-features>
-  </div> -->
-
-  <div #management id="management" [appTrackScroll]="'management'">
+  <div #management id="management" class="sectionDiv" [appTrackScroll]="'management'">
     <app-management></app-management>
     <app-features></app-features>
   </div>
-  <div #contact id="contact" [appTrackScroll]="'contact'">
+  <div #contact id="contact" class="sectionDiv" [appTrackScroll]="'contact'">
     <app-contact></app-contact>
   </div>
 </div>

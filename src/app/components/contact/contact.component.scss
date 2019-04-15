@@ -1,11 +1,15 @@
 .section{
-  padding:50px 25px 25px 25px;
-  background-color: #f2f2f2;
+  padding:25px;
+  padding-top: 60px;
+  background-color: gray;
+  // background-image: url("../../../../src/assets/images/slide3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
 }
 .content{
   padding-left: 7%;
   padding-right:7%;
-  padding-top:2%;
+  padding-top:1%;
 }
 .container-left{
   background-color: white;
@@ -16,7 +20,7 @@
    padding-top:2%;
 }
 .title{
-    font-size: 14pt;
+    font-size: 16pt;
     font-weight: bold;
     color:black;
     font-family: 'Didact Gothic',sans-serif;

@@ -17,6 +17,7 @@ import { ManagementComponent } from './components/management/management.componen
 import { TrackScrollDirective } from './track-scroll.directive';
 
 import {SharedService} from './services/shared.service';
+import { CapacityComponent } from './components/capacity/capacity.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import {SharedService} from './services/shared.service';
     TrackScrollDirective,
     HomeComponent,
     VisionComponent,
+    CapacityComponent,
   ],
   imports: [
     BrowserModule,
