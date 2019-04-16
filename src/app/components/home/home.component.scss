@@ -64,7 +64,7 @@
 @media (max-width: 767px) {
   .h1-responsive-accent{
     margin-left: 0px;
-    height:110px;
+    height:auto;
   }
 
   .accent-img{
@@ -73,14 +73,14 @@
 }
 /* Small devices (tablets, 768px and up) col-md  collapses here*/
 @media (min-width: 768px) and (max-width: 992px) {
+  .h1-responsive-accent{
+    margin-left: 0px;
+    height:auto;
+  }
   // .img{
   // height:auto;
   // width: 125px !important;
   // }
-  .h1-responsive-accent{
-    margin-left: 0px;
-    height:40px;
-  }
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */
