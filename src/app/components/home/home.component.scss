@@ -40,7 +40,7 @@
 }
 .h_logo{
   // padding:0.5rem;
-  // margin:1.5rem;
+  margin:2.5rem;
 }
 
 .accent-img{
@@ -53,11 +53,6 @@
   margin-right:0px;
   font-family: 'Didact Gothic',sans-serif;
   font-size:12pt;
-
-  //   background-image: url("../../../../src/assets/images/slide3.jpg");
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // height:500px;
 }
 
 /* Extra Small devices (tablets, 768px and up) col-sm */
@@ -77,26 +72,14 @@
     margin-left: 0px;
     height:auto;
   }
-  // .img{
-  // height:auto;
-  // width: 125px !important;
-  // }
 }
 
 /* Medium devices (desktops, 992px and up)  col-lg */
 @media (min-width: 992px) and (max-width: 1199px) {
-  // .img{
-  // height:auto;
-  // width: 125px !important;
-  // }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1920px) {
-  // .img{
-  // height:auto;
-  // width: 150px !important;
-  // }
 
 }

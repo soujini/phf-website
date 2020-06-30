@@ -3,51 +3,74 @@
     <p>CONTACT</p>
   </div>
   <div class="content row">
-<div class="col-md-6 col-xs-12 form text-center container-left">
-  <p> DROP US A LINE</p>
-  <form>
-    <div class="row form-row">
-      <div class="col-md-6">
-        <label for="contactName">Name*</label>
-        <input type="text" id="contactName" class="form-control form-control-sm">
+    <div class="col-md-6 col-xs-12 form text-center container-left">
+      <p> DROP US A LINE</p>
+      <div style="min-height:25px">
+        <p *ngIf= "this.sent == true" [@simpleFadeAnimation]="'in'" class="error-message-div" >{{message}}</p>
       </div>
-      <div class="col-md-6">
-        <label for="contactEmail">E-mail*</label>
-        <input type="email" id="contactEmail" class="form-control form-control-sm">
-      </div>
+      <form class="mt-1" [formGroup]="contactForm" (ngSubmit)="sendMail()">
+        <div class="row form-row">
+          <div class="col-md-6">
+            <label for="contactName">Name*</label>
+            <input type="text" id="contactName" class="form-control form-control-md" formControlName="name" [ngClass]="{'input-error':this.contactForm.controls.name.errors?.required && this.submitted == true || this.contactForm.controls.name.errors?.maxlength}">
+            <div class="text-left error-message-div">
+              <p *ngIf="this.contactForm.controls.name.errors?.required && this.submitted == true">This field is required</p>
+              <p *ngIf="this.contactForm.controls.name.errors?.maxlength">Please enter a maximum of 26 characters</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="contactEmail">E-mail*</label>
+            <input type="email" id="contactEmail" class="form-control form-control-md" formControlName="email" [ngClass]="{'input-error':this.contactForm.controls.email.errors?.required && this.submitted == true || this.contactForm.controls.email.errors?.pattern}">
+            <div class="text-left error-message-div">
+              <p *ngIf="this.contactForm.controls.email.errors?.required && this.submitted == true">This field is required</p>
+              <p *ngIf="this.contactForm.controls.email.errors?.pattern">Please enter a valid email</p>
+            </div>
+          </div>
+        </div>
+        <div class="row form-row">
+          <div class="col-md-12">
+            <label for="contactSubject">Subject*</label>
+            <input type="text" id="contactSubject" class="form-control form-control-md" formControlName="subject" [ngClass]="{'input-error':this.contactForm.controls.subject.errors?.required && this.submitted == true || this.contactForm.controls.subject.errors?.maxlength}">
+            <div class="text-left error-message-div">
+              <p *ngIf="this.contactForm.controls.subject.errors?.required && this.submitted == true">This field is required</p>
+              <p *ngIf="this.contactForm.controls.subject.errors?.maxlength">Please enter a maximum of 250 characters</p>
+            </div>
+          </div>
+        </div>
+        <div class="row form-row">
+          <div class="col-md-12">
+            <label for="contactMessage">Message*</label>
+            <textarea type="text" id="contactMessage" class="form-control-md" rows="5" formControlName="message" [ngClass]="this.contactForm.controls.message.errors?.required && this.submitted == true || this.contactForm.controls.message.errors?.maxlength ? 'form-control-warning' : 'form-control'"></textarea>
+            <div class="text-left error-message-div">
+              <p *ngIf="this.contactForm.controls.message.errors?.required && this.submitted == true">This field is required</p>
+              <p *ngIf="this.contactForm.controls.message.errors?.maxlength">Please enter a maximum of 500 characters</p>
+            </div>
+          </div>
+        </div>
+        <div class="div-send-msg">
+          <button *ngIf="!this.contactForm.valid" type="submit" class="btn-custom col-6">Send message</button>
+          <button *ngIf="this.contactForm.valid && !this.isLoading" type="submit" class="btn-custom-active col-6">Send message</button>
+          <button *ngIf="this.isLoading" type="submit" class="btn-custom-active col-6">
+            <div class="spinner-border text-dark" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </button>
+        </div>
+      </form>
     </div>
-    <div class="row form-row">
+    <div class="col-md-6 col-xs-12 form text-center container-right">
       <div class="col-md-12">
-        <label for="contactSubject">Subject*</label>
-        <input type="text" id="contactSubject" class="form-control form-control-sm">
-
+        <p class="fa fa-map-marker"></p>
+        <p>
+          94D Kompally,
+          Secunderabad 500100,<br>
+          Telangana State, India.
+        </p>
+        <p class="fa fa-envelope-o"></p>
+        <p><a href="mailto:hello@prataphealthfoods.com?subject=Enquiry">hello@prataphealthfoods.com</a></p>
+        <p class="fa fa-phone"></p>
+        <p>+919704111147</p>
       </div>
     </div>
-    <div class="row form-row">
-      <div class="col-md-12">
-        <label for="contactMessage">Message*</label>
-        <textarea type="text" id="contactMessage" class="form-control form-control-sm" rows="5"></textarea>
-      </div>
-    </div>
-    <div class="div-send-msg">
-      <button type="button" class="btn-custom col-6">Send message</button>
-    </div>
-  </form>
-</div>
-<div class="col-md-6 col-xs-12 form text-center container-right">
-  <div class="col-md-12">
-    <p class="fa fa-map-marker"></p>
-    <p>
-      94D Kompally,
-      Secunderabad 500100,<br>
-      Telangana State, India.
-    </p>
-    <p class="fa fa-envelope-o"></p>
-    <p>mail@prataphealthfoods.com</p>
-    <p class="fa fa-phone"></p>
-    <p>+919704111147</p>
   </div>
-</div>
-
-</div>
 </section>

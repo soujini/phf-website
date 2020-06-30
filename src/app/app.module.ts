@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule,NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,7 +19,6 @@ import { TrackScrollDirective } from './track-scroll.directive';
 
 import {SharedService} from './services/shared.service';
 import { CapacityComponent } from './components/capacity/capacity.component';
-
 
 @NgModule({
   declarations: [
@@ -38,9 +38,12 @@ import { CapacityComponent } from './components/capacity/capacity.component';
     BrowserModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
-    AppRoutingModule
-      ],
-      schemas: [ NO_ERRORS_SCHEMA ],
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
+  ],
+  schemas: [ NO_ERRORS_SCHEMA ],
   providers: [SharedService],
   bootstrap: [AppComponent]
 })
