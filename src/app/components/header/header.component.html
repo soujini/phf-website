@@ -7,7 +7,7 @@
       <ul class="navbar-nav mr-auto auto">
       </ul>
       <ul class="navbar-nav navbar-flex-icons">
-        <li id="liAbout" class="nav-item waves-light" mdbRippleRadius [ngClass]="activeMenu == 'about' ? 'blue1-text' : 'blue2-text'" routerLink="/home"
+        <li id="liAbout" class="nav-item waves-light" mdbRippleRadius [ngClass]="activeMenu == 'home' ? 'blue1-text' : 'blue2-text'" routerLink="/home"
         (click)="scroll(about,'about')" >
         <a class="nav-link">HOME<span class="sr-only"></span></a>
       </li>
@@ -25,7 +25,7 @@
 </section>
 
 <div class="text-center">
-  <div #about id="about" class="sectionDiv" [appTrackScroll]="'about'">
+  <div #about id="about" class="sectionDiv" [appTrackScroll]="'home'">
     <app-home></app-home>
     <app-vision></app-vision>
     <app-about></app-about>
