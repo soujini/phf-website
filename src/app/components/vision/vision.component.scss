@@ -1,79 +1,103 @@
-// @import url('https://fonts.googleapis.com/css?family=Freestyle+Script');
-// @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
-section{
+.section{
+  padding-top:50px;
+  padding-bottom:50px;
   background-color: #f2f2f2;
-   // padding:15px;
-    // padding:0px;
 }
+.content{
+  // padding-left: 1%;
+}
+
 .title{
-  font-size: 16pt;
+  font-size: 17pt;
   font-weight: bold;
   color:#99ba56;
-  font-family: 'Didact Gothic',sans-serif;
+  // font-family: 'Didact Gothic',sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.content{
-  padding-left:25%;
-  padding-right:25%;
-  text-align: center;
-  background-color: transparent;
-
-}
-.h1-responsive{
-  color:#99ba56;
-  font-family: 'Freestyle Script',sans-serif;
-  font-weight: bold;
-  text-transform: capitalize;
-  font-size: 35pt;
-}
-
-.tag{
-  font-size: 16pt;
-  font-family: 'Didact Gothic',sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.strong{
-  font-size: 22px;
-  color: #8acc25;
-  letter-spacing: 1px;
-}
-.container-left{
-padding-top:150px;
-  // overflow: hidden;
-  color:black;
-  // padding:0px;
-}
-.container-right{
-  padding:0px;
+.tag{
+  font-size: 17pt;
+  // font-family: 'Didact Gothic',sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-//* Extra Small devices (tablets, 768px and up) col-sm */
-@media (max-width: 767px) {
-  .content{
-    padding-left:7%;
-    padding-right:7%;
-    padding-top:5%;
-    text-align: center;
-  }
-  .container-left{
-   padding-top:25px;
-    // overflow: hidden;
-    // color:black;
-    // padding:0px;
-  }
-
-}
-/* Small devices (tablets, 768px and up) col-md  collapses here*/
-@media (min-width: 768px) and (max-width: 992px) {
-
-}
-
-/* Medium devices (desktops, 992px and up)  col-lg */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1920px) {}
+// // @import url('https://fonts.googleapis.com/css?family=Freestyle+Script');
+// // @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+// section{
+//   background-color: #f2f2f2;
+//    // padding:15px;
+//     // padding:0px;
+// }
+// .title{
+//   font-size: 16pt;
+//   font-weight: bold;
+//   color:#99ba56;
+//   font-family: 'Didact Gothic',sans-serif;
+//   text-transform: uppercase;
+//   letter-spacing: 2px;
+// }
+//
+// .content{
+//   padding-left:25%;
+//   padding-right:25%;
+//   text-align: center;
+//   background-color: transparent;
+//
+// }
+// .h1-responsive{
+//   color:#99ba56;
+//   font-family: 'Freestyle Script',sans-serif;
+//   font-weight: bold;
+//   text-transform: capitalize;
+//   font-size: 35pt;
+// }
+//
+// .tag{
+//   font-size: 16pt;
+//   font-family: 'Didact Gothic',sans-serif;
+//   -webkit-font-smoothing: antialiased;
+// }
+// .strong{
+//   font-size: 22px;
+//   color: #8acc25;
+//   letter-spacing: 1px;
+// }
+// .container-left{
+// padding-top:150px;
+//   // overflow: hidden;
+//   color:black;
+//   // padding:0px;
+// }
+// .container-right{
+//   padding:0px;
+// }
+//
+// //* Extra Small devices (tablets, 768px and up) col-sm */
+// @media (max-width: 767px) {
+//   .content{
+//     padding-left:7%;
+//     padding-right:7%;
+//     padding-top:5%;
+//     text-align: center;
+//   }
+//   .container-left{
+//    padding-top:25px;
+//     // overflow: hidden;
+//     // color:black;
+//     // padding:0px;
+//   }
+//
+// }
+// /* Small devices (tablets, 768px and up) col-md  collapses here*/
+// @media (min-width: 768px) and (max-width: 992px) {
+//
+// }
+//
+// /* Medium devices (desktops, 992px and up)  col-lg */
+// @media (min-width: 992px) and (max-width: 1199px) {
+//
+// }
+//
+// /* Large devices (large desktops, 1200px and up) */
+// @media (min-width: 1200px) and (max-width: 1920px) {}

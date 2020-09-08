@@ -1,17 +1,17 @@
 section{
-  // background-color: ;
 }
-.sectionDiv{
-  // padding:25px;
-}
+
 .nav-link{
-  font-size:8pt !important;
+  font-size:9pt !important;
+}
+.navbar-nav li.blue1-text a {
+  color: #4f85b8 !important;
   font-weight: bold;
 }
-.navbar-nav li.green-text a {
-  color:black !important;
-
+.navbar-nav li.blue2-text a {
+  color: #4f85b8 !important;
 }
+
 .logo{
    padding-left:75px;
 }
@@ -26,6 +26,9 @@ li a{
 .bar{
   height: 3200px;
 }
+// .navbar-light .navbar-nav .nav-link {
+//   color:red !important;
+// }
 
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {

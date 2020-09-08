@@ -1,43 +1,38 @@
 .section{
   padding:0px;
   background-color: white;
- height:750px;
- overflow-y: hidden;
+  height:750px;
+  overflow-y: hidden;
 }
 .x{
-  // height:auto;
-    background-image: url("../../../../src/assets/images/slide11.jpg");
+  background-image: url("../../../../src/assets/images/slide11.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.5;
- filter: alpha(opacity=50);
- height:800px;
- position: relative;
-  // height:auto;
-  // background-attachment: fixed;
+  filter: alpha(opacity=50);
+  height:800px;
+  position: relative;
 
 }
 .y{
-  // height:auto;
-    background-image: url("../../../../src/assets/images/slide11.jpg");
+  background-image: url("../../../../src/assets/images/slide11.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  // height:auto;
-  // background-attachment: fixed;
-
 }
 .content{
-  padding-left: 7%;
-  padding-right:7%;
-  padding-top:1%;
+  padding-top:2%;
+  font-size:13pt;
 }
 .title{
-    font-size: 16pt;
-    font-weight: bold;
-    color:black;
-    font-family: 'Didact Gothic',sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 17pt;
+  font-weight: bold;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+p{
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 //* Extra Small devices (tablets, 768px and up) col-sm */

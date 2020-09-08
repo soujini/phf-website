@@ -52,7 +52,7 @@ export class HeaderComponent implements OnInit {
         this.router.navigate([res]);
       },
       err => {
-        console.log(err);
+        // console.log(err);
       }
     );
   }

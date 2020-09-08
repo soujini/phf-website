@@ -1,9 +1,5 @@
-// @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
-// <style>
-// @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
-// </style>
 .section{
-  padding:75px 25px 25px 25px;
+  padding-top:75px;
 }
 
 .separator{
@@ -12,26 +8,26 @@
 
 .img{
   width: auto;
-  height:100px;
   margin-top:-15px;
 }
 .h1-responsive{
   font-family: "Didact Gothic",sans-serif;
   font-weight: bold;
-  font-size: 22pt;
+  font-size: 23pt;
 }
 .h1-responsive-accent{
   font-family: 'Allura', cursive;
-  font-size:24pt;
+  font-size: 25pt;
   background-color: #f2f2f2;
-  margin-top: 15px;
-  margin-left: -23px;
-  height:40px;
+  margin-top: 14px;
+  margin-left: -26px;
+  height: 55px;
+  padding: 8px;
 }
 
 .h2-responsive{
-  font-family: 'Didact Gothic',sans-serif;
-  font-size: 18pt;
+  // font-family: 'Didact Gothic',sans-serif;
+  font-size: 19pt;
 }
 
 .h_name{
@@ -39,7 +35,6 @@
   margin:1.5rem;
 }
 .h_logo{
-  // padding:0.5rem;
   margin:2.5rem;
 }
 
@@ -47,12 +42,21 @@
   padding:0px;
 }
 .h_capacity{
-  // padding:0.5rem;
-  // margin:1.5rem;
   margin-left:0px;
   margin-right:0px;
-  font-family: 'Didact Gothic',sans-serif;
-  font-size:12pt;
+  // font-family: 'Didact Gothic',sans-serif;
+  font-size:13pt;
+}
+.container-left{
+  color:black;
+  padding:0px;
+}
+.container-right{
+  padding:0px;
+}
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Extra Small devices (tablets, 768px and up) col-sm */

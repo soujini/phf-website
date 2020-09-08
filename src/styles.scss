@@ -1,11 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-@import "~font-awesome/css/font-awesome.css";
+// @import "~font-awesome/css/font-awesome.css";
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
-@import url("https://fonts.googleapis.com/css?family=Freestyle+Script");
 
 html, body { height: 100%; }
-body { margin: 0;font-family: 'Didact Gothic', sans-serif; font-size: 12pt;-webkit-font-smoothing: antialiased; }
+body { margin: 0;font-family: 'Didact Gothic', sans-serif; font-size: 12pt;-webkit-font-smoothing: antialiased; letter-spacing: 0.5px}
 .navbar{
   -webkit-box-shadow: none;
   -moz-box-shadow: none;

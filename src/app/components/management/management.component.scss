@@ -1,21 +1,23 @@
 // @import url('https://fonts.googleapis.com/css?family=Freestyle+Script');
 .section{
-  padding:60px 25px 25px 25px;
+  padding:50px 25px 50px 25px;
   background-color: gray;
 }
 .content{
-  padding-left: 7%;
-  padding-right:7%;
+  padding-left: 2%;
+  padding-right:2%;
   padding-top:1%;
+
 }
+
 .separator{
   color:#ccc;
 }
 .title{
-  font-size: 16pt;
+  font-size: 17pt;
   font-weight: bold;
-  color:black;
-  font-family: 'Didact Gothic',sans-serif;
+  color:white;
+  // font-family: 'Didact Gothic',sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -43,64 +45,28 @@
     border-bottom:1px solid white;
   }
   .card-content{
-    // min-height:275px;
-    // font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
-    // color: #666;
-    -webkit-font-smoothing: antialiased;
     padding-top: 25px;
+    font-size:13pt;
   }
 
   .name{
     font-family: 'Allura',cursive;
-    font-size: 24pt;
+    font-size: 25pt;
   }
   .designation{
-    font-size: 10pt;
+    font-size: 11pt;
     text-transform: uppercase;
     font-weight: bold;
   }
-}
-.card2{
-  margin-top:20px;
-  text-align: center;
-  // border: 1px solid #edf3e1;
-  min-height:200px;
 
-  .header{
-    background-color: #f5f9ef;
-    // color: #666;
-    padding: 25px;
-    line-height: 2.5em;
-    border-right: 1px solid #edf3e1;
-  }
-  .card-content{
-    font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
-    // color: #666;
-    -webkit-font-smoothing: antialiased;
-    padding-top: 25px;
-  }
-
-  .name{
-    font-size: 18px;
-    font-weight:bolder;
-  }
-
-  .designation{
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-
-
-  }
-  .education{
-    padding-left:25px;
-    padding-right:25px;
-  }
-  .expertise{
-    padding-left:25px;
-    padding-right:25px;
+  .expertise-header{
+    margin-top:25px;
   }
 }
+
+
+
+
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
 

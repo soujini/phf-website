@@ -1,42 +1,34 @@
 <section class="row navbar-light">
-<mdb-navbar SideClass="navbar fixed-top navbar-custom navbar-expand-lg scrolling-navbar ie-nav row" [containerInside]="false">
-  <logo>
-    <img class="logo" alt="logo" src="./assets/images/logo_phf.png" height="50px;">
-  </logo>
-  <links class="links">
-    <ul class="navbar-nav mr-auto auto">
-    </ul>
-    <ul class="navbar-nav navbar-flex-icons">
-      <!-- <li id="liHome" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='home'}" routerLink="/home"
-       (click)="scroll(home,'home')" >
-        <a class="nav-link">HOME<span class="sr-only">(current)</span></a>
-      </li> -->
-      <li id="liAbout" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='about'}" routerLink="/about"
-       (click)="scroll(about,'about')" >
-        <a class="nav-link">ABOUT<span class="sr-only"></span></a>
+  <mdb-navbar SideClass="navbar fixed-top navbar-custom navbar-expand-lg scrolling-navbar ie-nav row" [containerInside]="false">
+    <logo>
+      <img class="logo" alt="logo" src="./assets/images/logo_phf.png" height="50px;">
+    </logo>
+    <links class="links">
+      <ul class="navbar-nav mr-auto auto">
+      </ul>
+      <ul class="navbar-nav navbar-flex-icons">
+        <li id="liAbout" class="nav-item waves-light" mdbRippleRadius [ngClass]="activeMenu == 'about' ? 'blue1-text' : 'blue2-text'" routerLink="/home"
+        (click)="scroll(about,'about')" >
+        <a class="nav-link">HOME<span class="sr-only"></span></a>
       </li>
-      <!-- <li id="liFeatures" class="nav-item xwaves-light" xmdbRippleRadius [ngClass]="{'green-text': activeMenu=='features'}" routerLink="/features"
-      (click)="scroll(features,'features')">
-        <a class="nav-link">FEATURES</a>
-      </li> -->
-      <li id="liManagement" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='management'}" routerLink="/management"
+      <li id="liManagement" class="nav-item waves-light" mdbRippleRadius [ngClass]="activeMenu == 'management' ? 'blue1-text' : 'blue2-text'" routerLink="/management"
       (click)="scroll(management,'management')">
-        <a class="nav-link">MANAGEMENT</a>
-      </li>
-      <li id="liContact" class="nav-item waves-light" mdbRippleRadius [ngClass]="{'green-text': activeMenu=='contact'}" routerLink="/contact"
-      (click)="scroll(contact,'contact')">
-        <a class="nav-link">CONTACT</a>
-      </li>
-    </ul>
-  </links>
+      <a class="nav-link">MANAGEMENT</a>
+    </li>
+    <li id="liContact" class="nav-item waves-light" mdbRippleRadius [ngClass]="activeMenu == 'contact' ? 'blue1-text' : 'blue2-text'" routerLink="/contact"
+    (click)="scroll(contact,'contact')">
+    <a class="nav-link">CONTACT</a>
+  </li>
+</ul>
+</links>
 </mdb-navbar>
 </section>
 
 <div class="text-center">
-   <div #about id="about" class="sectionDiv" [appTrackScroll]="'about'">
-     <app-home></app-home>
+  <div #about id="about" class="sectionDiv" [appTrackScroll]="'about'">
+    <app-home></app-home>
     <app-vision></app-vision>
-     <app-about></app-about>
+    <app-about></app-about>
   </div>
   <div #management id="management" class="sectionDiv" [appTrackScroll]="'management'">
     <app-management></app-management>

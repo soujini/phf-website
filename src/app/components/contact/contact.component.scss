@@ -1,32 +1,31 @@
 .section{
-  padding:25px;
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f2f2f2;
-  // background-image: url("../../../../src/assets/images/slide3.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .content{
   padding-left: 7%;
   padding-right:7%;
   padding-top:1%;
+  font-size: 13pt;
 }
 .container-left{
   background-color: white;
   padding-top:2%;
 }
 .container-right{
-   background-color: #bebebe;
-   background-color: #e5e5e5;
-   padding-top:2%;
+  background-color: #bebebe;
+  background-color: #e5e5e5;
+  padding-top:3.7%;
 }
 .title{
-    font-size: 16pt;
-    font-weight: bold;
-    color:black;
-    font-family: 'Didact Gothic',sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 17pt;
+  font-weight: bold;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .contact-box
@@ -42,10 +41,10 @@ background-repeat: no-repeat;
 }
 
 .form-row{
-   margin-bottom:15px;
+  margin-bottom:15px;
 }
 .fa{
-   padding-top:15px;
+  padding-top:15px;
 }
 
 .div-send-msg
@@ -54,8 +53,6 @@ background-repeat: no-repeat;
   padding: 25px;
 }
 .btn-custom{
-  // background-color: #d5d5d5;
-  // background-color: #f2f2f2;
   background-color: #e5e5e5;
   color:black;
   border-radius:10px;
@@ -63,7 +60,7 @@ background-repeat: no-repeat;
   height: 50px;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12pt;
 }
 .btn-custom-active{
   background-color: #99ba56;
@@ -73,7 +70,7 @@ background-repeat: no-repeat;
   height: 50px;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12pt;
 }
 
 .drop{
@@ -81,11 +78,11 @@ background-repeat: no-repeat;
 }
 .error-message-div{
   color:#99ba56;
-  font-size:14px;
+  font-size:12pt;
   font-weight: bold;
 }
 a {
-  color:#99ba56 !important;
+  color:#4f85b8 !important;
 }
 
 
