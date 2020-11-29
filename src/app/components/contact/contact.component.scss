@@ -1,6 +1,6 @@
 .section{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 25px;
+  padding-bottom: 50px;
   background-color: #f2f2f2;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 .content{
   padding-left: 7%;
   padding-right:7%;
-  padding-top:1%;
+  padding-top:2%;
   font-size: 13pt;
 }
 .container-left{
@@ -26,6 +26,7 @@
   color:black;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-top:1%;
 }
 
 .contact-box
@@ -88,6 +89,9 @@ a {
 
 //* Extra Small devices (tablets, 768px and up) col-sm */
 @media (max-width: 767px) {
+  .ip-name{
+    margin-bottom:15px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) col-md  collapses here*/

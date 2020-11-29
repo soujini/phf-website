@@ -8,8 +8,8 @@
         <p *ngIf= "this.sent == true" [@simpleFadeAnimation]="'in'" class="error-message-div" >{{message}}</p>
       </div>
       <form class="mt-1" [formGroup]="contactForm" (ngSubmit)="sendMail()">
-        <div class="row form-row" style="margin-left:0px; margin-right:0px">
-          <div class="col-md-6">
+        <div class="row form-row" xstyle="margin-left:0px; margin-right:0px">
+          <div class="col-md-6 ip-name">
             <input placeholder="Name *" type="text" id="contactName" class="form-control form-control-md" formControlName="name" [ngClass]="{'input-error':this.contactForm.controls.name.errors?.required && this.submitted == true || this.contactForm.controls.name.errors?.maxlength}">
             <div class="text-left error-message-div">
               <p *ngIf="this.contactForm.controls.name.errors?.required && this.submitted == true">This field is required</p>
@@ -24,7 +24,7 @@
             </div>
           </div>
         </div>
-        <div class="row form-row" style="margin-left:0px; margin-right:0px">
+        <div class="row form-row" xstyle="margin-left:0px; margin-right:0px">
           <div class="col-md-12">
             <input placeholder="Subject *" type="text" id="contactSubject" class="form-control form-control-md" formControlName="subject" [ngClass]="{'input-error':this.contactForm.controls.subject.errors?.required && this.submitted == true || this.contactForm.controls.subject.errors?.maxlength}">
             <div class="text-left error-message-div">
@@ -33,7 +33,7 @@
             </div>
           </div>
         </div>
-        <div class="row form-row" style="margin-left:0px; margin-right:0px">
+        <div class="row form-row" xstyle="margin-left:0px; margin-right:0px">
           <div class="col-md-12">
             <textarea placeholder="Message *" type="text" id="contactMessage" class="form-control-md" rows="3" formControlName="message" [ngClass]="this.contactForm.controls.message.errors?.required && this.submitted == true || this.contactForm.controls.message.errors?.maxlength ? 'form-control-warning' : 'form-control'"></textarea>
             <div class="text-left error-message-div">
